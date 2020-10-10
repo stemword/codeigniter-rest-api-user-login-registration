@@ -41,6 +41,7 @@ http://localhost/restserver/authentication/user/1 - GET
 http://localhost/restserver/authentication/user_edit - POST
 
 Also we will add authentication or security while calling APIs
+
 ![Auth](1.png)
 
 ![Header](2.png)
