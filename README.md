@@ -43,14 +43,19 @@ INSERT INTO `keys` (`id`, `user_id`, `key`, `level`, `ignore_limits`, `is_privat
 List of APIs you will get:
 
 http://localhost/restserver/authentication/login - POST
+
 http://localhost/restserver/authentication/registration - POST
+
 http://localhost/restserver/authentication/user/1 - GET 
+
 http://localhost/restserver/authentication/user_edit - POST
+
 
 Also we will add authentication or security while calling APIs
 
-![Auth](1.png)
 
-![Header](2.png)
+![Auth](https://github.com/stemword/codeigniter-rest-api-user-login-registration/blob/master/1.PNG)
 
-![Request](3.png)
+![Header](https://github.com/stemword/codeigniter-rest-api-user-login-registration/blob/master/2.PNG)
+
+![Request](https://github.com/stemword/codeigniter-rest-api-user-login-registration/blob/master/3.PNG)
