@@ -1,6 +1,9 @@
 "# codeigniter Rest API" 
+
 Clone or Download project . Set on server.
+
 "# Create Database Tables"
+
 ```
 CREATE TABLE `users` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -29,12 +32,16 @@ CREATE TABLE `keys` (
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+
 Insert one default key to table
+
 ```
 INSERT INTO `keys` (`id`, `user_id`, `key`, `level`, `ignore_limits`, `is_private_key`, `ip_addresses`, `date_created`) VALUES
 (NULL, 1, 'stemword', 0, 0, 0, NULL, '2018-10-11 13:34:33');
 ```
+
 List of APIs you will get:
+
 http://localhost/restserver/authentication/login - POST
 http://localhost/restserver/authentication/registration - POST
 http://localhost/restserver/authentication/user/1 - GET 
